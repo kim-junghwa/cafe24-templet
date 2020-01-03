@@ -3034,7 +3034,7 @@ input, select, textarea {
 			}
 
 		.spotlights > section > .content {
-			padding: 4em 5em 2em 5em ;
+			padding: 1em 1em 1em 1em ;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;

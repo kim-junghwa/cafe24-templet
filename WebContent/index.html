@@ -55,6 +55,26 @@
 	position: absolute;
 	top: 68%;
 }
+
+.inner p{
+	height: 1px;
+}
+
+.left {
+	float:left;
+	margin-right: 50px;
+}
+
+.full{
+	height:50px;
+	width: 100%;
+}
+
+.more{
+	float:left; 
+	width:100%; 
+	height:50px;
+}
 </style>
 <body class="is-preload">
 
@@ -97,9 +117,22 @@
 					<div class="inner">
 						<h2>EMPLOYEES</h2>
 						<p>employees 데이터베이스를 이용한 테이블 조회</p>
-						<ul class="actions">
-							<li><a href="employees" class="button">more</a></li>
-						</ul>
+						<div class="full">
+							<ul class="left">
+								<li>ECLIPSE</li>
+								<li>mariaDB</li>
+								<li>MVC(model2)</li>
+								<li>JAVA</li>
+							</ul>
+							<ul class="left">
+								<li>jsp</li>
+							</ul>
+						</div>
+						<div class="more">
+							<ul class="actions">
+								<li><a href="employees" class="button">more</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -109,10 +142,20 @@
 				<div class="content">
 					<div class="inner">
 						<h2>SAKILA</h2>
-						<p>sakila 데이터베이스를 이용한 crud</p>
-						<ul class="actions">
-							<li><a href="sakila" class="button">more</a></li>
-						</ul>
+						<p>sakila 데이터베이스를 이용한 crud</p>	
+						<div class="full">
+							<ul class="left">
+								<li>ECLIPSE</li>
+								<li>mariaDB</li>
+								<li>MVC(model2)</li>
+								<li>JAVA</li>
+							</ul>
+						</div>	
+						<div class="more">
+							<ul class="actions">
+								<li><a href="sakila" class="button">more</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -123,9 +166,22 @@
 					<div class="inner">
 						<h2>PUZZLE</h2>
 						<p></p>
-						<ul class="actions">
-							<li><a href="puzzle" class="button">more</a></li>
-						</ul>
+						<div class="full">
+							<ul class="left">
+								<li>ECLIPSE</li>
+								<li>mariaDB</li>
+								<li>MVC(model2)</li>
+								<li>JAVA</li>
+							</ul>
+							<ul class="left">
+								<li>javascript</li>
+							</ul>
+						</div>	
+						<div class="more">
+							<ul class="actions">
+								<li><a href="puzzle" class="button">more</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -136,9 +192,19 @@
 					<div class="inner">
 						<h2>BLUE-MARBLE</h2>
 						<p></p>
-						<ul class="actions">
-							<li><a href="blue-marble/test.html" class="button">more</a></li>
-						</ul>
+						<div class="full">
+							<ul class="left">
+								<li>ECLIPSE</li>
+								<li>mariaDB</li>
+								<li>MVC(model2)</li>
+								<li>JAVA</li>
+							</ul>
+						</div>	
+						<div class="more">
+							<ul class="actions">
+								<li><a href="blue-marble/test.html" class="button">more</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -149,9 +215,19 @@
 					<div class="inner">
 						<h2>NOR</h2>
 						<p></p>
-						<ul class="actions">
-							<li><a href="nor" class="button">more</a></li>
-						</ul>
+						<div class="full">
+							<ul class="left">
+								<li>SPRING</li>
+								<li>mariaDB</li>
+								<li>MVC(model2)</li>
+								<li>JAVA</li>
+							</ul>
+						</div>	
+						<div class="more">
+							<ul class="actions">
+								<li><a href="nor" class="button">more</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -228,10 +304,6 @@
 		<section id="three" class="wrapper style1 fade-up">
 			<div class="inner">
 				<h2>Get in touch</h2>
-				<p>Phasellus convallis elit id ullamcorper pulvinar. Duis
-					aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam
-					dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit
-					amet imperdiet est velit quis lorem.</p>
 				<div class="split style1">
 					<section>
 						<form method="post" action="#">
@@ -302,12 +374,4 @@
 	<script src="assets/js/main.js"></script>
 
 </body>
-<script>
-	$("#mail").click(function() {
-		console.log($(this).text())
-		$(this).text();
-		document.execCommand('copy');
-		alert("복사되었습니다.")
-	});
-</script>
 </html>
